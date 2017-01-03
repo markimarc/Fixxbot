@@ -61,8 +61,8 @@ else if ($text == "/boedie") {
 // 	$telegram->sendMessage(array('chat_id' => $chat_id, 'text' => ""));
 // }
 
-// Als iemand scheld met het favoriete scheldwoord van de jeugd van tegenwoordig
-else if (strpos($text, 'kanker') !== false) {
+// /why met een spraakbericht output output
+else if (strpos($text, '/why') !== false) {
 	$telegram->sendVoice(array('chat_id' => $chat_id, 'voice' => new CURLFile("./assets/moetdatnou.mp3")));
 }
 
