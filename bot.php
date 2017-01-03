@@ -1,6 +1,6 @@
 <?php
 include("Telegram.php");
-$bot_id = "API KEY";
+include("api.php");
 $telegram = new Telegram($bot_id);
 $text = $telegram->Text();
 $chat_id = $telegram->ChatID();
