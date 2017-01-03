@@ -26,6 +26,8 @@ Heb je alles wat hierboven staat? Top. Dan kan je beginnen!
 11. Gefeliciteerd! Je bot werkt! 
 12. Pas alles naar je eigen voorkeur aan wat je wilt, en stuur mij even een pb op telegram ([@marcleanne](https://telegram.me/marcleanne)) met je @ van de bot, ik ben benieuwd wat je ervan hebt gemaakt :).
 
+Als iets niet lukt, kan je mij altijd op Telegram een bericht sturen ([@marcleanne](https://telegram.me/marcleanne) of een [Issue aanmaken](https://github.com/markimarc/Fixxbot/issues).
+
 ## Met dank aan
 
 - [@CirkeltrekBot](https://github.com/Maartenwut/CirkeltrekBot) (Maarten)
