@@ -9,6 +9,16 @@ $command = strtolower(str_replace('/', '', $text));
 
 define('CHAT_ID', $chat_id);
 
-$path = 'commands/command.'.$command.'.php';
-if(file_exists($path))
-    require_once($path);
+if($text[0] == '/')
+{
+    $path = 'commands/command.' . $command . '.php';
+    if (file_exists($path))
+        require_once($path);
+} else
+{
+    if(strpos(strtolower($text), 'fix') !== false)
+    {
+        $path = 'commands/command.fix.php';
+        require_once($path);
+    }
+}
